@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="width-wrap">
-        <header id="top"> <!-- not sure if this line is not working properly or if website is not yet large enough for it to be used properly-->
+        <header id="top"> 
             <nav>
                 <ul>
                     <li><a href="index.html" title="Home">Home</a></li>
@@ -34,10 +34,11 @@
             <h1>
                 Welcome to Caleb's Website!
             </h1>
-            
-            <img src="images/my-pic1.jpg" alt="A picture of Caleb Stubbe"
-                 sizes=" (max-width: 500px) 150px, 300px"
-                 srcset="images/my-pic2.png 150w, images/my-pic3.png 300w">
+            <a href="images/my-pic1.jpg">
+                <img src="images/my-pic1.jpg" alt="A picture of Caleb Stubbe"
+                     sizes=" (max-width: 500px) 150px, 300px"
+                     srcset="images/my-pic2.png 150w, images/my-pic3.png 300w">
+            </a>
             
             <p>Hi! I'm Caleb Stubbe, I'm the youngest of 5 brothers.</p>
             <p>I live on St. Joseph Island, Ontario</p>
@@ -69,8 +70,27 @@
                 And within every dewdrop<br>
                 A world of struggle<br>
                 <cite> by <span class="author">Kobayashi Issa</span></cite>
-               
             </p>
+
+            <h3>
+                Public Domain Audiobook
+            </h3>
+
+            <audio src="https://ia801400.us.archive.org/24/items/roman_triumvirates_2110_librivox/romantriumvirates_01_merivale_128kb.mp3" controls>
+                <a href="https://ia801400.us.archive.org/24/items/roman_triumvirates_2110_librivox/romantriumvirates_01_merivale_128kb.mp3" alt = "chapter 1 of Roman Triumvirates on librivox"> </a>
+            </audio>
+
+            <h3>
+                Youtube Video
+            </h3>
+
+            <iframe width="560" height="315" allowfullscreen
+                src="https://www.youtube.com/embed/gy1B3agGNxw" >
+                <p>iframe is not supported in your browser</p>
+            </iframe>
+
+
+
         </main>
 
         <footer>
@@ -85,7 +105,7 @@
             </p>
 
         </footer>
-        <a href= "#top"  title="back to top"> ◤ </a> <!--not sure if this line is not working properly or if website is not yet large enough for it to be used properly-->
+        <a href= "#top"  title="back to top"> ◤ </a> 
     </div>
 </body>
 </html>
